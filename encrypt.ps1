@@ -8,8 +8,6 @@ $secretSecured = ConvertTo-SecureString $secret -AsPlainText -Force
 $encrypted = ConvertFrom-SecureString -secureString $secretSecured -key $key
 Write-Output "encrypted: $($encrypted)"
 
-$encrypted = "QdcElEmsZJltV5vcCs0vA=="
-
 # decrypt
 $secure = $encrypted | ConvertTo-SecureString -key $key
 $bstr = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($secure)
