@@ -1,6 +1,6 @@
 # Code snippets for [PowerShell ConvertFrom-SecureString in Java?](https://stackoverflow.com/questions/58423051/powershell-convertfrom-securestring-in-java) post on stackoverlow.
 
-## Running the PowerShell script ([on Linux](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-6)
+## Running the PowerShell script ([on Linux](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-6))
 
 ```
 $ pwsh -file encrypt.ps1
